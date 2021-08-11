@@ -1,0 +1,36 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ a {
+   color:#2271b1;
+ }
+.form_checkBox .form-check{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+ } 
+ .form_checkBox .form-check input{
+    margin-top: 2px;
+ }
+ .form_checkBox .form-check label{
+    margin-left: 25px;
+ }
+ .travel_booking_field{
+     display: flex;
+     align-items: center;
+     margin-bottom: 20px;
+ }
+ .travel_booking_field label{
+    margin-right: 0px;
+    margin-bottom: 0;
+    width: 20%;
+ }
+ .travel_booking_field input{
+     width: 25rem;
+ }
+ .travel_booking_field .button {
+    width: 200px;
+    height: 47px;
+ }
